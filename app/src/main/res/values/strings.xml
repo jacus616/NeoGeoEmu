@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NeoGeoEmu</string>
+
+    <!-- Game List -->
+    <string name="no_games_found">No NeoGeo ROMs found</string>
+    <string name="scanning">Scanning for ROMs…</string>
+    <string name="bios_missing">NeoGeo BIOS not found. Place neogeo.zip in your ROMs directory.</string>
+
+    <!-- Emulation -->
+    <string name="resume_game">Resume Game</string>
+    <string name="save_state">Save State</string>
+    <string name="load_state">Load State</string>
+    <string name="reset">Reset</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="settings">Settings</string>
+
+    <!-- Settings categories -->
+    <string name="settings_video">Video</string>
+    <string name="settings_audio">Audio</string>
+    <string name="settings_input">Input</string>
+    <string name="settings_emulation">Emulation</string>
+    <string name="settings_savestates">Save States</string>
+</resources>

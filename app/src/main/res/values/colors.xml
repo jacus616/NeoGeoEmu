@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PPSSPP-inspired dark theme colors -->
+    <color name="primary">#FF6B35</color>        <!-- NeoGeo orange -->
+    <color name="primary_dark">#E55A2B</color>
+    <color name="accent">#FFD700</color>          <!-- Gold -->
+    <color name="background">#1A1A2E</color>      <!-- Dark navy -->
+    <color name="surface">#16213E</color>         <!-- Slightly lighter -->
+    <color name="surface_variant">#0F3460</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_background">#E0E0E0</color>
+    <color name="on_surface">#E0E0E0</color>
+    <color name="error">#CF6679</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+
+    <!-- Game list -->
+    <color name="game_item_bg">#2A2A4A</color>
+    <color name="game_item_pressed">#3A3A5A</color>
+
+    <!-- Touch controls -->
+    <color name="touch_button_bg">#40FFFFFF</color>
+    <color name="touch_button_pressed">#80FFFFFF</color>
+    <color name="dpad_bg">#30FFFFFF</color>
+</resources>

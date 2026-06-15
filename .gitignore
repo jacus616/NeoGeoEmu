@@ -1,0 +1,30 @@
+# NeoGeoEmu - .gitignore
+
+# Gradle
+.gradle/
+build/
+app/build/
+app/.cxx/
+*.apk
+*.aab
+*.ap_
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FBNeo submodule — don't ignore it!
+# fbneo-core/ is a git submodule, tracked separately
+
+# But ignore FBNeo's build artifacts if any
+fbneo-core/**/*.o
+fbneo-core/**/*.a

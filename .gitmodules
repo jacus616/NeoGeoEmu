@@ -1,0 +1,3 @@
+[submodule "fbneo-core"]
+	path = fbneo-core
+	url = https://github.com/finalburnneo/FBNeo.git
