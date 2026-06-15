@@ -7,7 +7,7 @@ android {
     namespace = "org.neogeoemu.app"
     compileSdk = 34
     buildToolsVersion = "34.0.0"
-    ndkVersion = "27.0.0"
+    ndkVersion = "27.0.12077973"
 
     defaultConfig {
         applicationId = "org.neogeoemu.app"
