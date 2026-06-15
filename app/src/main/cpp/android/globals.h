@@ -50,35 +50,7 @@ typedef signed long long   INT64;
 #define __fastcall
 #endif
 
-// TCHAR mapping — FBNeo uses TCHAR for text.
-// On Android we use char (narrow).
-#ifndef _T
-#define _T(x) x
-#endif
-
-#ifndef _tcsicmp
-#define _tcsicmp strcmp
-#endif
-
-#ifndef _tcscpy
-#define _tcscpy strcpy
-#endif
-
-#ifndef _tcslen
-#define _tcslen strlen
-#endif
-
-#ifndef _stprintf
-#define _stprintf sprintf
-#endif
-
-#ifndef _tfopen
-#define _tfopen fopen
-#endif
-
-#ifndef _istspace
-#define _istspace isspace
-#endif
+#include "tchar.h"
 
 // MAX_PATH
 #ifndef MAX_PATH
